@@ -4,7 +4,6 @@
  */
 
 import Link from "next/link";
-import { portfolioData } from "@/data/portfolio";
 
 export default function NotFound() {
   return (

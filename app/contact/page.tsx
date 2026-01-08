@@ -51,7 +51,7 @@ export default function Contact() {
           message: data.error || "Something went wrong. Please try again.",
         });
       }
-    } catch (error) {
+    } catch {
       setStatus({
         type: "error",
         message: "Failed to send message. Please try again later.",

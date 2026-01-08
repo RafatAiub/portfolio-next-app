@@ -33,9 +33,8 @@ export async function POST(request: NextRequest) {
     // 2. Save to a database
     // 3. Send notifications
 
-    // For now, we'll simulate a successful submission
-    // You can integrate with your preferred email service here
-    console.log("Contact form submission:", { name, email, message });
+    // TODO: Integrate with your preferred email service here
+    // Example: await sendEmail({ to: 'your-email@example.com', subject, body: message });
 
     // Simulate processing delay
     await new Promise((resolve) => setTimeout(resolve, 500));
